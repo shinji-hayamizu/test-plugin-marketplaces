@@ -1,0 +1,11 @@
+{
+  "name": "code-standards",
+  "version": "1.0.0",
+  "description": "dea-sg共通コーディング規約",
+  "commands": "./commands/",
+  "agents": [
+    "./agents/security-reviewer.md",
+    "./agents/code-reviewer.md"
+  ],
+  "hooks": "./hooks.json"
+}

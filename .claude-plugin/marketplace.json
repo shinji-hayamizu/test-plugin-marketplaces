@@ -1,0 +1,19 @@
+{
+  "name": "dea-sg-tools",
+  "owner": {
+    "name": "dea-sg",
+    "email": "dev@dea-sg.com"
+  },
+  "plugins": [
+    {
+      "name": "code-standards",
+      "source": "./plugins/code-standards",
+      "description": "共通コーディング規約とレビュー用エージェント"
+    },
+    {
+      "name": "project-tools",
+      "source": "./plugins/project-tools",
+      "description": "プロジェクト管理ツール"
+    }
+  ]
+}
