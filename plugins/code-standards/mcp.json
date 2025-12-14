@@ -1,0 +1,27 @@
+{
+  "filesystem": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "@modelcontextprotocol/server-filesystem"
+    ],
+    "env": {}
+  },
+  "memory": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "@modelcontextprotocol/server-memory"
+    ],
+    "env": {}
+  },
+  "chrome-devtools": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "chrome-devtools-mcp@latest"
+    ],
+    "env": {}
+  }
+}
+

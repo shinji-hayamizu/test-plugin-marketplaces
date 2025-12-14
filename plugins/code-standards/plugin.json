@@ -8,5 +8,6 @@
     "./agents/code-reviewer.md",
     "./agents/invocation-tester.md"
   ],
-  "hooks": "./hooks.json"
+  "hooks": "./hooks.json",
+  "mcpServers": "./mcp.json"
 }
