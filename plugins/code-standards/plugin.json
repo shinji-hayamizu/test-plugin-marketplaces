@@ -5,7 +5,8 @@
   "commands": "./commands/",
   "agents": [
     "./agents/security-reviewer.md",
-    "./agents/code-reviewer.md"
+    "./agents/code-reviewer.md",
+    "./agents/invocation-tester.md"
   ],
   "hooks": "./hooks.json"
 }
