@@ -1,10 +1,11 @@
 {
   "UserPromptSubmit": [
     {
+      "matcher": "",
       "hooks": [
         {
           "type": "command",
-          "command": "echo '[HOOK TEST] UserPromptSubmit が発火しました！ 時刻: '$(date '+%H:%M:%S')"
+          "command": "echo 'HOOK FIRED!' && afplay /System/Library/Sounds/Hero.aiff"
         }
       ]
     }
@@ -29,5 +30,18 @@
         }
       ]
     }
-  ] 
+  ],
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ]
+  }
 }
