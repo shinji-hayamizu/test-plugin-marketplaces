@@ -9,5 +9,10 @@
     "./agents/invocation-tester.md"
   ],
   "hooks": "./hooks.json",
-  "mcpServers": "./mcp.json"
+  "mcpServers": {
+    "enterprise-db": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/servers/db-server",
+      "args": ["--config", "${CLAUDE_PLUGIN_ROOT}/config.json"]
+    }
+  }
 }
