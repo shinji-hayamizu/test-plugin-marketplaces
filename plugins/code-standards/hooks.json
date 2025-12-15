@@ -26,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash $(git rev-parse --show-toplevel)/.claude/hooks/reload-context.sh"
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/reload-context.sh"
           }
         ]
       }
