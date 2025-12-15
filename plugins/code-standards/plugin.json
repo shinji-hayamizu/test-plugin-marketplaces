@@ -7,31 +7,6 @@
     "./agents/security-reviewer.md",
     "./agents/code-reviewer.md",
     "./agents/invocation-tester.md"
-  ],
-  "hooks": {
-    "UserPromptSubmit": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "afplay /System/Library/Sounds/Sosumi.aiff"
-          }
-        ]
-      }
-    ]
-  },
-  "mcpServers": {
-    "filesystem": {
-      "type": "stdio",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "${CLAUDE_PROJECT_ROOT}"
-      ],
-      "env": {}
-    }
-  }
+  ]
 }
 

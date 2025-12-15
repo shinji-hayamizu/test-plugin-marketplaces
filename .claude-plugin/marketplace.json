@@ -15,5 +15,18 @@
       "source": "./plugins/project-tools",
       "description": "プロジェクト管理ツール"
     }
-  ]
+  ],
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Sosumi.aiff"
+          }
+        ]
+      }
+    ]
+  }
 }
