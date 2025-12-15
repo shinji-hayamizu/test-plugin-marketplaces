@@ -10,9 +10,14 @@
   ],
   "hooks": "./hooks.json",
   "mcpServers": {
-    "enterprise-db": {
-      "command": "${CLAUDE_PLUGIN_ROOT}/servers/db-server",
-      "args": ["--config", "${CLAUDE_PLUGIN_ROOT}/config.json"]
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "--from", "git+https://github.com/oraios/serena",
+        "serena", "start-mcp-server",
+        "--context", "ide-assistant",
+        "--project", "${CLAUDE_PLUGIN_ROOT}"
+      ]
     }
   }
 }
