@@ -19,5 +19,16 @@
         }
       ]
     }
-  ]
+  ],
+  "SessionStart": [
+      {
+        "matcher": "clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $(git rev-parse --show-toplevel)/.claude/hooks/reload-context.sh"
+          }
+        ]
+      }
+    ] 
 }
