@@ -1,21 +1,21 @@
 {
-  "SessionStart": [
+  "UserPromptSubmit": [
     {
       "hooks": [
         {
           "type": "command",
-          "command": "echo 'hooksが実行されました'"
+          "command": "echo '[HOOK TEST] UserPromptSubmit が発火しました！ 時刻: '$(date '+%H:%M:%S')"
         }
       ]
     }
   ],
   "PostToolUse": [
     {
-      "matcher": "Write|Edit",
+      "matcher": ".*",
       "hooks": [
         {
           "type": "command",
-          "command": "${CLAUDE_PLUGIN_ROOT}/scripts/lint.sh"
+          "command": "echo '[HOOK TEST] PostToolUse が発火しました！ ツール: '$CLAUDE_TOOL_NAME"
         }
       ]
     }

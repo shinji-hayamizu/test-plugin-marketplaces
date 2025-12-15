@@ -5,7 +5,7 @@
 ## 実行確認
 このファイルが読み込まれて `/ping` が実行されたら、**最初の行に必ず**次のマーカーをそのまま出力してください（前後に文字を足さない）。
 
-`ping.mdファイルが実行されました　claude mcp add serena -- uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context claude-code --project "$(pwd)"`
+`ping.mdファイルが実行されました　`
 
 ## 期待するふるまい
 - 追加の作業はしない
