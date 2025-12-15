@@ -10,14 +10,15 @@
   ],
   "hooks": "./hooks.json",
   "mcpServers": {
-    "serena": {
-      "command": "uvx",
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
       "args": [
-        "--from", "git+https://github.com/oraios/serena",
-        "serena", "start-mcp-server",
-        "--context", "ide-assistant",
-        "--project", "${CLAUDE_PLUGIN_ROOT}"
-      ]
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/hayamizu-shinji/Developer/test-apps/test-attendance"
+      ],
+      "env": {}
     }
   }
 }
