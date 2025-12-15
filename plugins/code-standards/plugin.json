@@ -19,7 +19,8 @@
           }
         ]
       }
-    ],
+    ]
+  },
   "mcpServers": {
     "filesystem": {
       "type": "stdio",
