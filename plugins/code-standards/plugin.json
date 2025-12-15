@@ -16,7 +16,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/Users/hayamizu-shinji/Developer/test-apps/test-attendance"
+        "${CLAUDE_PROJECT_ROOT}"
       ],
       "env": {}
     }
