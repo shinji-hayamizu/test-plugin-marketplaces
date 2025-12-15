@@ -21,14 +21,13 @@
     }
   ],
   "SessionStart": [
-      {
-        "matcher": "clear|compact",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/reload-context.sh"
-          }
-        ]
-      }
-    ] 
+    {
+      "hooks": [
+        {
+          "type": "command",
+          "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/reload-context.sh"
+        }
+      ]
+    }
+  ] 
 }
