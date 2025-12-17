@@ -3,7 +3,9 @@
     "type": "stdio",
     "command": "npx",
     "args": [
-      "@modelcontextprotocol/server-filesystem"
+      "-y",
+      "@modelcontextprotocol/server-filesystem",
+      "${CLAUDE_PROJECT_ROOT}"
     ],
     "env": {}
   },
@@ -11,6 +13,7 @@
     "type": "stdio",
     "command": "npx",
     "args": [
+      "-y",
       "@modelcontextprotocol/server-memory"
     ],
     "env": {}
@@ -19,6 +22,7 @@
     "type": "stdio",
     "command": "npx",
     "args": [
+      "-y",
       "chrome-devtools-mcp@latest"
     ],
     "env": {}
