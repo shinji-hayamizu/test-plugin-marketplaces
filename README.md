@@ -16,6 +16,12 @@ Claude Codeプラグインマーケットプレイス（テスト用）
 - **コマンド**: `/deploy`
 - **エージェント**: QA Checker
 
+### sound-notify
+音声通知付きのプラグイン（MCP付き）
+
+- **コマンド**: `/beep`, `/fanfare`, `/alert`
+- **MCP**: fetch, sequential-thinking
+
 ## 使い方
 
 各プロジェクトの `.claude/settings.json` に以下を追加:
