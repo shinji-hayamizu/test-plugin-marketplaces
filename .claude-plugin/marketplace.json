@@ -1,8 +1,8 @@
 {
-  "name": "dea-sg-tools",
+  "name": "test-plugin-marketplaces",
   "owner": {
-    "name": "dea-sg",
-    "email": "dev@dea-sg.com"
+    "name": "shinji-hayamizu",
+    "email": "shinji-hayamizu@example.com"
   },
   "plugins": [
     {
@@ -14,6 +14,11 @@
       "name": "project-tools",
       "source": "./plugins/project-tools",
       "description": "プロジェクト管理ツール"
+    },
+    {
+      "name": "sound-notify",
+      "source": "./plugins/sound-notify",
+      "description": "音声通知付きのプラグイン（MCP付き）"
     }
   ]
 }

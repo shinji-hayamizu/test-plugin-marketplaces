@@ -1,6 +1,6 @@
-# dea-sg Claude Plugins
+# shinji-hayamizu Claude Plugins
 
-dea-sg共通のClaude Codeプラグインマーケットプレイス
+Claude Codeプラグインマーケットプレイス（テスト用）
 
 ## プラグイン一覧
 
@@ -23,10 +23,10 @@ dea-sg共通のClaude Codeプラグインマーケットプレイス
 ```json
 {
   "extraKnownMarketplaces": {
-    "dea-sg-tools": {
+    "test-plugin-marketplaces": {
       "source": {
         "source": "github",
-        "repo": "dea-sg/claude-plugins"
+        "repo": "shinji-hayamizu/test-plugin-marketplaces"
       }
     }
   },
