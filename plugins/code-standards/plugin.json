@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "dea-sg共通コーディング規約",
   "commands": "./commands/",
+  "mcp": "./mcp.json",
   "agents": [
     "./agents/security-reviewer.md",
     "./agents/code-reviewer.md",
