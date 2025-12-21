@@ -2,8 +2,8 @@
   "name": "project-tools",
   "version": "1.0.0",
   "description": "プロジェクト管理ツール",
+  "commands": "./commands/",
   "agents": [
     "./agents/qa-checker.md"
   ]
 }
-

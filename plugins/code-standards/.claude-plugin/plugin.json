@@ -2,6 +2,12 @@
   "name": "code-standards",
   "version": "1.0.1",
   "description": "共通コーディング規約",
+  "commands": "./commands/",
+  "agents": [
+    "./agents/security-reviewer.md",
+    "./agents/code-reviewer.md",
+    "./agents/invocation-tester.md"
+  ],
   "mcpServers": {
     "filesystem": {
       "command": "npx",
@@ -19,11 +25,6 @@
       ]
     }
   },
-  "agents": [
-    "./agents/security-reviewer.md",
-    "./agents/code-reviewer.md",
-    "./agents/invocation-tester.md"
-  ],
   "hooks": {
     "UserPromptSubmit": [
       {
@@ -38,4 +39,3 @@
     ]
   }
 }
-

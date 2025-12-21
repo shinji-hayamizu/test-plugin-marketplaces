@@ -2,6 +2,7 @@
   "name": "sound-notify",
   "version": "1.0.0",
   "description": "音声通知付きのプラグイン（MCP付き）",
+  "commands": "./commands/",
   "mcpServers": {
     "fetch": {
       "command": "npx",
@@ -43,4 +44,3 @@
     ]
   }
 }
-
