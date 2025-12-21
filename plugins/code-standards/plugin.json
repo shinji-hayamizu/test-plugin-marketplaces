@@ -5,7 +5,7 @@
   "commands": "./commands/",
   "mcpServers": {
     "filesystem": {
-      "command": "npx",
+      "command": "${CLAUDE_PLUGIN_ROOT}/npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
@@ -13,17 +13,10 @@
       ]
     },
     "memory": {
-      "command": "npx",
+      "command": "${CLAUDE_PLUGIN_ROOT}/npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-memory"
-      ]
-    },
-    "chrome-devtools": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "chrome-devtools-mcp@latest"
       ]
     }
   },
