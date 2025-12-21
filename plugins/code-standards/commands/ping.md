@@ -11,7 +11,7 @@
 - 追加の作業はしない
 - 相談や質問があれば、マーカーの次の行で1文だけ聞く
 
-## Agents テスト
+<!-- ## Agents テスト
 マーカー出力後、Task ツールを使用してカスタムエージェント `invocation-tester` を呼び出してください：
 - subagent_type: `invocation-tester`
 - prompt: `/ping コマンドから呼び出されました`
@@ -26,5 +26,5 @@ Skill ツールを使用してカスタムスキル `invocation-tester` を呼�
 
 スキルが `[[PLUGIN_INVOKED:code-standards:skill:invocation-tester]]` を返したら成功です。
 結果を「Skills テスト結果:」として1行で報告してください。
-
+ -->
 
