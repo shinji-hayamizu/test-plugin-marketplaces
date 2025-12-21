@@ -2,25 +2,20 @@
   "name": "sound-notify",
   "version": "1.0.0",
   "description": "音声通知付きのプラグイン（MCP付き）",
-  "commands": "./commands/",
   "mcpServers": {
     "fetch": {
-      "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-fetch"
-      ],
-      "env": {}
+      ]
     },
     "sequential-thinking": {
-      "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
         "@modelcontextprotocol/server-sequential-thinking"
-      ],
-      "env": {}
+      ]
     }
   },
   "hooks": {
@@ -48,3 +43,4 @@
     ]
   }
 }
+
