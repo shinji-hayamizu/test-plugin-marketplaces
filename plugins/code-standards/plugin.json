@@ -3,7 +3,34 @@
   "version": "1.0.1",
   "description": "dea-sg共通コーディング規約",
   "commands": "./commands/",
-  "mcp": "./mcp.json",
+  "mcpServers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${CLAUDE_PLUGIN_ROOT}"
+      ],
+      "env": {}
+    },
+    "memory": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {}
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ],
+      "env": {}
+    }
+  },
   "agents": [
     "./agents/security-reviewer.md",
     "./agents/code-reviewer.md",
