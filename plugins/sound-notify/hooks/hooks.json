@@ -1,8 +1,18 @@
+// ~/.claude/settings.json
 {
-  "description": "Test hook for sound-notify plugin",
   "hooks": {
     "SessionStart": [
       {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C ~/dev/shared/test-plugin-marketplaces pull --quiet"
+          }
+        ]
+      },
+      {
+        "matcher": "",
         "hooks": [
           {
             "type": "command",
